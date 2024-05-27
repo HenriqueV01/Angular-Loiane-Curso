@@ -1,0 +1,7 @@
+<h1>Diretiva ngIf</h1>
+<div *ngIf="cursos.length > 0">Lista de cursos</div>
+<div *ngIf="cursos.length == 0" >Nenhuma lista de cursos</div>
+<hr>
+<div *ngIf="mostrarCurso">Lista de cursos</div>
+<div *ngIf="!mostrarCurso" >Nenhuma lista de cursos</div>
+<button (click)="onMostrarCurso()">Mostrar e ocultar cursos</button>
